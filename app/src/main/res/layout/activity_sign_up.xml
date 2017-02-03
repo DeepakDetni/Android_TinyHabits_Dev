@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rzt_globe"
+    android:backgroundTint="@color/black"
+    tools:context="com.tinyhabits.razorthink.tinyhabits.SignUpActivity">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/sign_up_fields_layout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginRight="20dp">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/rzt_logo"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:src="@drawable/razorthink"-->
+                <!--android:background="@color/black"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tiny_habits_text"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="TINY HABITS"-->
+                <!--android:textStyle="bold"-->
+                <!--android:gravity="center"-->
+                <!--android:textSize="20pt"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:textColor="@color/blue"/>-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_below="@+id/tiny_habits_text"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center">-->
+
+                <!--<android.support.design.widget.TextInputLayout-->
+                    <!--android:id="@+id/input_layout_name"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="20dp">-->
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/input_name"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:imeOptions="actionNext"-->
+                        <!--android:inputType="text"-->
+                        <!--android:maxLines="1"-->
+                        <!--android:hint="Full Name" />-->
+                <!--</android.support.design.widget.TextInputLayout>-->
+
+                <!--<android.support.design.widget.TextInputLayout-->
+                    <!--android:id="@+id/input_layout_email"-->
+                    <!--android:layout_below="@+id/input_layout_name"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="30dp">-->
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/input_email"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:imeOptions="actionNext"-->
+                        <!--android:inputType="textEmailAddress"-->
+                        <!--android:hint="Email Id" />-->
+                <!--</android.support.design.widget.TextInputLayout>-->
+
+                <!--<android.support.design.widget.TextInputLayout-->
+                    <!--android:layout_below="@+id/input_layout_email"-->
+                    <!--android:id="@+id/input_layout_mobile_no"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="30dp">-->
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/input_mobile_num"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:imeOptions="actionDone"-->
+                        <!--android:inputType="number"-->
+                        <!--android:hint="Mobile Number" />-->
+                <!--</android.support.design.widget.TextInputLayout>-->
+
+                <Button
+                    android:id="@+id/signup_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="SIGN UP"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/red"/>
+
+            <!--</RelativeLayout>-->
+        <!--</RelativeLayout>-->
+    <!--</ScrollView>-->
+</RelativeLayout>

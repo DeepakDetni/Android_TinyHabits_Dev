@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tinyhabits.razorthink.tinyhabits.HomePageActivity">
+
+    <RelativeLayout
+        android:id="@+id/create_group_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <RelativeLayout
+            android:id="@+id/profile_details_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_toRightOf="@+id/profile_pic"
+            android:text="User Name"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="12pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_toRightOf="@+id/profile_pic"
+            android:layout_below="@+id/user_name"
+            android:layout_marginTop="10dp"
+            android:text="User Email"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/user_phno"
+            android:layout_toRightOf="@+id/profile_pic"
+            android:layout_below="@+id/user_email"
+            android:layout_marginTop="10dp"
+            android:text="Mobile number"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/group_details_layout"
+            android:layout_below="@+id/profile_details_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/group_name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group name"
+                android:textSize="8pt"
+                android:textColor="@color/grey"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_below="@+id/group_name_text"
+                android:id="@+id/group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group name"
+                android:textSize="15pt"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_below="@+id/group_name"
+                android:id="@+id/group_reward_points_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rewards"
+                android:textSize="8pt"
+                android:textColor="@color/grey"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_below="@+id/group_reward_points_text"
+                android:id="@+id/group_reward_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200"
+                android:textSize="15pt"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:layout_below="@+id/group_reward_points"
+                android:id="@+id/click_button"
+                android:layout_width="match_parent"
+                android:text="CLICK HERE"
+                android:textColor="@color/white"
+                android:background="@color/colorAccent"
+                android:layout_height="50dp" />
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_below="@+id/profile_details_layout"
+            android:id="@+id/create_group_button"
+            android:layout_width="match_parent"
+            android:text="CREATE GROUP"
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"
+            android:visibility="visible"
+            android:layout_height="50dp" />
+
+    </RelativeLayout>
+</RelativeLayout>
